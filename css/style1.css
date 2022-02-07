@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    background-image: url(../image/hero11.jpg);
+    background-size: cover;
+    height: 100vh;
+
+    }
+
+    
+/*GLOBAL CSS START*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.container1{
+    width:1010px;
+    margin:0 auto;
+}
+
+/*GLOBAL CSS END*/
+
+
+
+/*TOPBAR CSS START*/
+
+
+
+
+header {
+
+
+    background: linear-gradient(to right,#00867d,#0090a0);
+    float: left;
+    width: 100%;
+    padding: 15px 0px 10px;
+}
+
+.logo{
+    float: left;
+    width:28%;
+}
+.menu{
+    float: left;
+    width:70%;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    
+}
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 550;
+    padding: 12px 20px;
+    transition: all 0.2s linear;
+
+}
+.menu ul li:last-child {
+    background: #00c29e;
+    border-radius: 10px;
+}
+
+.menu ul li a:hover {
+    background:#00c29e;
+    border-radius:10px;
+
+}
+
+/*TOPBAR CSS END*/
+
+.contain {
+    width: 360px;
+    height: 390px;
+    background: #29292a;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main_body img {
+    height: 100px;
+    width: 100px;
+    border-radius: 65px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid #424242;
+    margin-top: -55px;
+}
+
+input placeholder{
+    font-family: 'Merriweather', serif;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #00c29e;
+    background: #dfdfdf9e;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    font-family: 'Merriweather', serif;
+    transition: all 0.1s linear;
+}
+
+
+.main_body h3 {
+    text-align: center;
+    background: #00c29e;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+
+
+.main_body label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+
+.main_body input[type="text"], [type="password"], [type="submit"] {
+    width: 92%;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #00c29e;
+    font-size: 15px;
+    padding: 12px;
+    margin-left: 1px;
+    background: #8e8e8e3b;
+    border-radius: 5px;
+}
+
+
+::-webkit-input-placeholder{
+color: white;
+}
+
+
+
+label {
+    margin-left: 5px;
+}
+
+
+button:hover{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background:#00c29e;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-family: 'Merriweather', serif;
+
+
+}
+a.forget:hover{
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    color: #00c29e;
+    text-decoration: none;
+
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+a.forget {
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s linear;
+}
+
+
+a.signup {
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s linear;
+    margin-left: 10px;
+}
+
+
+a.signup:hover{
+    color:#00c29e;
+}
+
+
+
+
+
+.main_body [type="password2"],input[type="name"],[type="email"] {
+    width: 92%;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #00c29e;
+    font-size: 15px;
+    padding: 12px;
+    margin-left: 1px;
+    background: #8e8e8e3b;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+}
+
+select {
+    width: 100%;
+    display: block;
+    margin-bottom:5px;
+    border: 1px solid #00c29e;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 1px;
+    background: #8e8e8e3b;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.contain2 {
+    width: 360px;
+    height: 470px;
+    background: #29292a;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+}
+
+option {
+    background: #928f8fc9;
+    font-family: 'Merriweather', serif;
+}
+
+.gender {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+
+h5 {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+.b2 {
+    display: block;
+    width: 25%;
+    margin-left: 5px;
+    padding: 8px;
+    border: 1px solid #00c29e;
+    background: #dfdfdf9e;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    font-family: 'Merriweather', serif;
+    transition: all 0.1s linear;
+}
+button.b2:hover {
+    display: block;
+    width: 25%;
+    margin-left: 5px;
+    padding: 8px;
+    border: 1px solid #00cef9;
+    background: #00c29e;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-family: 'Merriweather', serif;
+   
+}
+
+/*FOOTER CSS START*/
+.footer{
+    background-image:linear-gradient(to right, rgba(0, 16, 11, 0.92), 
+        rgba(0, 16, 11, 0.92)),url(../image/prt2.jpg);
+    min-height: 600px;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.map {
+    float: left;
+    position: absolute;
+    width: 45%;
+    text-align: center;
+    top: 10%;
+}
+
+i#place {
+    font-size: 35px;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+}
+
+.footer_text {
+    float: left;
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+
+h1.lst {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+}
+
+li.lst1 {
+    margin: 16px 0;
+    font-size: 20px;
+}
+
+.footer_img {
+    margin-top: 12%;
+}
+
+h1.ls {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.h2s {
+    margin-left: 35px;
+}
+
+img.ls2 {
+    position: absolute;
+    top: 5px;
+    width: 21px;
+}
+
+img.ls1 {
+    margin-right: 10px;
+}
+/*FOOTER CSS END*/
